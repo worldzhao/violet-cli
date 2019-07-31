@@ -1,7 +1,10 @@
 {
   "name": "violet-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line tool for generating project template",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "files": [
     "bin",
     "lib",
@@ -14,7 +17,7 @@
   "private": false,
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsc",
+    "build": "yarn lint && tsc",
     "lint": "eslint --ext **/*.ts"
   },
   "repository": {
