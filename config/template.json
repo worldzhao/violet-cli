@@ -1,0 +1,14 @@
+[
+  {
+    "name": "React移动端模板",
+    "value": "git@github.com:worldzhao/react-mobile-template.git"
+  },
+  {
+    "name": "React组件模板",
+    "value": "git@github.com:worldzhao/react-component-template.git"
+  },
+  {
+    "name": "工具库模板#待支持",
+    "value": ""
+  }
+]

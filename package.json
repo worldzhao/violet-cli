@@ -1,0 +1,64 @@
+{
+  "name": "violet-cli",
+  "version": "1.0.0",
+  "description": "A command line tool for generating project template",
+  "files": [
+    "bin",
+    "lib",
+    "config",
+    "README.md"
+  ],
+  "bin": {
+    "violet": "./bin/violet.js"
+  },
+  "private": false,
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint --ext **/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/worldzhao/violet-cli.git"
+  },
+  "author": "haiqiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/worldzhao/violet-cli/issues"
+  },
+  "homepage": "https://github.com/worldzhao/violet-cli#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/glob": "^7.1.1",
+    "@types/inquirer": "^6.0.3",
+    "@types/metalsmith": "^2.3.0",
+    "@types/node": "^12.6.8",
+    "@types/rimraf": "^2.0.2",
+    "@types/table": "^4.0.6",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^2.0.0",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.4",
+    "handlebars": "^4.1.2",
+    "inquirer": "^6.5.0",
+    "latest-version": "^5.1.0",
+    "log-symbols": "^3.0.0",
+    "metalsmith": "^2.3.0",
+    "minimatch": "^3.0.4",
+    "ora": "^3.4.0",
+    "table": "^5.4.4",
+    "tslib": "^1.10.0"
+  }
+}
